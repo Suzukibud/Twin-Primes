@@ -1,0 +1,21 @@
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
+
+Title: Twin Primes
+
+Author: Damien Doran
+
+Description: This project is to demonstrate the difference in concurrent and sequential code as they compute twin primes
+
+In this project there will be :
+	tests of the binary number of threads (1,2,4,8,...)
+	records of the time taken
+
+Dependencies:
+gcc version 7.5.0 or greater
+Make
+
+Install:
+run "make ALL" in directory with code
+
+Usage:
+type "a.out" to run

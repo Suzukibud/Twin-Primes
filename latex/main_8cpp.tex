@@ -1,0 +1,75 @@
+\hypertarget{main_8cpp}{}\doxysection{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.cpp@{main.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+{\ttfamily \#include $<$omp.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+Include dependency graph for main.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+long \mbox{\hyperlink{main_8cpp_ac971a7d4315abd6eeda3359f0e462669}{sequential}} (long long n)
+\begin{DoxyCompactList}\small\item\em sequentially calculates twin primes up to n \end{DoxyCompactList}\item 
+long \mbox{\hyperlink{main_8cpp_a5dd1bb0407f402176377b22f5e03545f}{concurrent}} (long long n)
+\begin{DoxyCompactList}\small\item\em concurrently calculates the number of twin primes \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Damien Doran 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+16/02/21 
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+This work is licensed under the Creative Commons Attribution-\/\+Non\+Commercial-\/\+Share\+Alike 4.\+0 International License. To view a copy of this license, visit \href{http://creativecommons.org/licenses/by-nc-sa/4.0/}{\texttt{ http\+://creativecommons.\+org/licenses/by-\/nc-\/sa/4.\+0/}}. 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a5dd1bb0407f402176377b22f5e03545f}\label{main_8cpp_a5dd1bb0407f402176377b22f5e03545f}} 
+\index{main.cpp@{main.cpp}!concurrent@{concurrent}}
+\index{concurrent@{concurrent}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{concurrent()}{concurrent()}}
+{\footnotesize\ttfamily long concurrent (\begin{DoxyParamCaption}\item[{long long}]{n }\end{DoxyParamCaption})}
+
+
+
+concurrently calculates the number of twin primes 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & is the number to calculate the primes up to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+long long value count of the number of twins 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8cpp_ac971a7d4315abd6eeda3359f0e462669}\label{main_8cpp_ac971a7d4315abd6eeda3359f0e462669}} 
+\index{main.cpp@{main.cpp}!sequential@{sequential}}
+\index{sequential@{sequential}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{sequential()}{sequential()}}
+{\footnotesize\ttfamily long sequential (\begin{DoxyParamCaption}\item[{long long}]{n }\end{DoxyParamCaption})}
+
+
+
+sequentially calculates twin primes up to n 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & a long long value indicating the number to calculate primes to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+count of twin primes 
+\end{DoxyReturn}
